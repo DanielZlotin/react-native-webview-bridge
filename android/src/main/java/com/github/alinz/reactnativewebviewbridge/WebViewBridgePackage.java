@@ -22,9 +22,4 @@ public class WebViewBridgePackage implements ReactPackage {
                 new WebViewBridgeManager()
         );
     }
-
-    @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Arrays.asList();
-    }
 }
