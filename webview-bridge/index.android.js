@@ -33,7 +33,7 @@ var {
     WebViewBridgeManager
   }
 } = ReactNative;
-var { PropTypes } = React;
+var PropTypes = require('prop-types');
 
 var RCT_WEBVIEWBRIDGE_REF = 'webviewbridge';
 
