@@ -164,4 +164,9 @@ RCT_EXPORT_METHOD(startLoadWithResult:(BOOL)result lockIdentifier:(NSInteger)loc
   }
 }
 
++ (BOOL)requiresMainQueueSetup
+{
+   return YES;
+}
+
 @end
