@@ -22,6 +22,8 @@ var ReactNative = require('react-native');
 var invariant = require('invariant');
 var keyMirror = require('keymirror');
 var resolveAssetSource = require('react-native/Libraries/Image/resolveAssetSource');
+var createReactClass = require('create-react-class');
+var PropTypes = require('prop-types');
 
 var {
   ActivityIndicator,
